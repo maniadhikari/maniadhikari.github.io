@@ -41,20 +41,26 @@ nav ul li a:hover{
     margin: auto;
     padding-top: 90px;
     padding-bottom: 90px;
-    text-align: center;
 }
 .content{
     align-items: center;
+    text-align: center;
 }
 .hello{
     opacity: 80%;
-    font-size: 22px;
-
+    font-size: 28px;
     margin-bottom: 10px;
 }
 .hero_text{
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-size: 65px;
+    font-weight: 900;
+}
+.hero_intro{
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 130%;
+    font-family: 'Space Grotesk', sans-serif;
 }
 button{
     padding: 12px 15px 12px 15px;
@@ -62,4 +68,27 @@ button{
     background-color: #29292a;
     color: white;
     cursor: pointer;
+}
+.about{
+    padding: 60px 75px 60px 75px;
+}
+.my_img{
+    height: 450px;
+    width: 600px;
+    background-color: gray;
+    margin-right: 60px;
+}
+.about_me{
+    max-width: 60%;
+}
+.about_me_text{
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }

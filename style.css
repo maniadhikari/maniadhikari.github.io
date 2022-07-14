@@ -37,7 +37,7 @@ nav ul li a:hover{
     padding-left: 60px;
     padding-right: 60px;
 }
-.container{
+.hero_container{
     margin: auto;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -91,4 +91,114 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.project_img{
+    height: 400px;
+    width: 600pxs;
+}
+section{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.heading_1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.projects_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.project_des{
+    width: 50%;
+    margin-left: 40px;
+}
+.pro_subheading{
+    margin-bottom: 20px;
+}
+.pro_sub{
+    margin-bottom: 10px;
+}
+.project_about{
+    margin-bottom: 15px;
+}
+label{
+    margin-top: 30px;
+    font-size: 10px;
+    background-color: gray;
+    padding: 8px 8px 8px 8px;
+}
+.container{
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    .hero{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    .hero_section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hero_container{
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .content{
+        align-items: left;
+        text-align: left;
+    }
+    .hello{
+        opacity: 80%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .hero_text{
+        margin-bottom: 12px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .hero_intro{
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 130%;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .flexbox{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .projects_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
 }

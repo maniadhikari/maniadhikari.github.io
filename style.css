@@ -4,6 +4,9 @@
     font-family: 'Space Grotesk', sans-serif;
     font-family: 'Syne', sans-serif;
 }
+.hero_mobile{
+    display: none;
+}
 .hero{
     padding-left: 60px;
     padding-right: 60px;
@@ -112,6 +115,13 @@ section{
     margin-bottom: 80px;
     margin-top: 40px;
 }
+.projects_flex_reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 40px;
+   }
 .project_des{
     width: 50%;
     margin-left: 40px;
@@ -136,6 +146,9 @@ label{
     padding-top: 45px;
     padding-bottom: 45px;
 }
+.project_des_left{
+    margin-right: 40px;
+}
 
 
 
@@ -147,58 +160,109 @@ label{
 
 
 
-@media only screen and (max-width: 320px){
-    .hero{
-        padding-left: 20px;
-        padding-right: 20px;
+
+@media only screen and (max-width: 700px){
+   .hero_section{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+   }
+   section{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .container{
+    margin: auto;
+   }
+   .hero_container{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .hero{
+    display: none;
+   }
+   .hero_text{
+    font-size: 32px;
+   }
+   .content{
+    align-items: left;
+    text-align: left;
+   }
+   .flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .projects_flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 40px;
+   }
+   .projects_flex_reverse{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 40px;
+   }
+   .project_des{
+    width: auto;
+    margin-left: 40px;
+   }
+   .project_img{
+    height: auto;
+    max-width: 100%;
+   }
+   .about{
+    padding: 0px 0px 0px 0px;
+   }
+   .project_des{
+    width: auto;
+    margin-left: 0px;
+   }
+   .about_me{
+    max-width: auto;
+   }
+   .my_img{
+    width: 350px;
+    height: 300px;
+    background-color: gray;
+    margin-right: 60px;
+    align-items: center;
+   }
+   .about_me_text{
+    margin-bottom: 20px;
+   }
+   .hero_mobile{
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+   .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-gap: 4px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: #29292a;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
     }
-    nav{
-        display: flex;
+    .logo{
+        text-align: center;
+    }
+    .nav_link{
+        padding-left: 9px;
+        padding-right: 9px;
         align-items: center;
-        justify-content: space-between;
-        padding-top: 25px;
+        text-align: center;
     }
-    .hero_section{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .hero_container{
-        margin: auto;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .content{
-        align-items: left;
-        text-align: left;
-    }
-    .hello{
-        opacity: 80%;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .hero_text{
-        margin-bottom: 12px;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    .hero_intro{
-        margin-bottom: 25px;
-        font-size: 16px;
-        line-height: 130%;
-        font-family: 'Space Grotesk', sans-serif;
-    }
-    .flexbox{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .projects_flex{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        margin-bottom: 80px;
-        margin-top: 40px;
-    }
+
 }
